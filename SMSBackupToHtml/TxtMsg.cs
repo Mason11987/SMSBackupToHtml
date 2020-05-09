@@ -9,7 +9,7 @@ namespace SMSBackupToHtml
 
         public TxtMsg(smsesSms sms)
         {
-            if (targetAddress == 0)
+            if (targetAddress == default)
                 targetAddress = sms.address;
             RightSide = sms.type == 2;
 
