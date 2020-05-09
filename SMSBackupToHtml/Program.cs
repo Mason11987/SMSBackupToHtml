@@ -59,7 +59,7 @@ namespace SMSBackupToHtml
             mediatext.Append("<html><head></head><body>");
 
             Msg lastMsg = null;
-            foreach (var msg in ordered.Where(x => x.Date.Year == 2018))
+            foreach (var msg in ordered)
             {
                 msg.WriteToHtml(mediatext, lastMsg == null || lastMsg.Date.Day != msg.Date.Day);
                 lastMsg = msg;
