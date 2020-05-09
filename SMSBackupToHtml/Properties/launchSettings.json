@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "SMSBackupToHtml": {
+      "commandName": "Project"
+    },
+    "MyTestFiles": {
+      "commandName": "Project",
+      "commandLineArgs": "\"..\\..\\..\\..\\SampleFiles\\sms-20200503210924.xml\" \"output.html\""
+    }
+  }
+}
